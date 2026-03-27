@@ -2,8 +2,8 @@
 
 const forms = document.querySelectorAll('form');
 
-function capitalize(str) {
-  return str.charAt(0).toUpperCase() + str.slice(1);
+function capitalize(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 forms.forEach((form) => {
